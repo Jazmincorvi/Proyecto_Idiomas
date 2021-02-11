@@ -8,15 +8,59 @@ a.btn-j-outline-warning
   border-radius: 6px;
   text-align: center;
       display: inline-block;
-      font-size: 23px;
+      font-size: 27px;
+      font-family: monospace;
+}
+a.btn-i-outline-warning {
+  font-size: 30px;
+  height: 40px;
+  line-height: 20px;
+  padding-right: 60px;
+  padding-left: 50px;
+  position: relative;
+  color:rgba(0, 0, 0, 0.884);
+  text-decoration: none;
+  background-color:rgba(245, 193, 23, 0.726);
+  border-radius: 5px;
+  font-family: Georgia;
+
 }
 span.visually-hidden{
   color: rgb(240, 44, 44);
 }
 div.parrafo-carousel{
-  color:rgb(255, 255, 255);
-  background-color:#0000004d;
+  color:rgb(0, 0, 0);
+  background-color:#fff8f817;
   font-size: 28px;
-  
- 
+  font-family: Georgia;
+}
+div.card-header{
+  background-color: rgb(245, 193, 23);
+}
+div.card-footer{
+  background-color: rgb(245, 193, 23);
+}
+
+h2.card-title{
+  color: #000000;
+  font-weight: normal;
+  font-size: 40px;
+  font-family: monospace;
+  text-align: center; 
+text-transform: uppercase; 
+padding: 6px;  
+border-radius: 30px; 
+}
+p.card-text{
+  color: #000000;
+  font-style: italic;
+  font-weight: bolder;
+  font-family: georgia;
+}
+p.titulo-profesores{
+  color: #000000;
+  text-align: center;
+  font-style: italic;
+  font-weight: bolder;
+  font-family: georgia;
 }
