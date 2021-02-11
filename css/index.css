@@ -64,3 +64,208 @@ p.titulo-profesores{
   font-weight: bolder;
   font-family: georgia;
 }
+
+
+
+body{
+  background: #f1f1f1;
+}
+
+.aoe-title{
+  text-transform: uppercase;
+      text-align: center;
+    font-weight: 600;
+    color: #000000;
+}
+
+.line{
+    width: 75px;
+    height: 5px;
+    background-color: #df8e0b;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+/*== TESTIMONIALS SECTION =*/
+
+.testimonials-section{
+  padding: 50px 0px 50px 0px;
+}
+
+
+/*-- Carousel --*/
+.col-center {
+  margin: 0 auto;
+  float: none !important;
+}
+.carousel {
+  margin: 50px auto;
+  padding: 0 170px;
+}
+.carousel .item {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+    text-align: center;
+  overflow: hidden;
+    min-height: 290px;
+}
+.carousel .item .img-box {
+  width: 170px;
+  height: 170px;
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid rgb(245, 90, 0);
+  border-radius: 50%;
+}
+.carousel .img-box img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%;
+}
+.carousel .testimonial {
+  padding: 30px 0 10px;
+  color: rgb(0, 0, 0);
+  font-size: 32;
+  font-family: Georgia;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.carousel-title{
+  margin: 25px;
+  color: rgba(0, 0, 0, 0.678);
+  font-family: monospace;
+}
+
+.carousel-line{
+  height: 1px;
+  width: 600px;
+  background-color: #000000;
+  margin: auto;
+}
+
+.carousel .overview { 
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.carousel .overview b {
+  color: #eca100;
+  font-size: medium;
+  font-family: Georgia;
+}
+
+.company-name{
+    color: rgb(0, 0, 0);
+}
+
+.carousel .carousel-control {
+  width: 0px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+  background: none;
+}
+.carousel-control i {
+    font-size: 25px;
+    line-height: 42px;
+    position: absolute;
+    display: inline-block;
+    color: #000;
+}
+.carousel .carousel-indicators {
+  bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+  width: 10px;
+  height: 10px;
+  margin: 1px 3px;
+  border-radius: 50%;
+}
+.carousel-indicators li { 
+  background: rgb(0, 0, 0);
+  border-color: transparent;
+  box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li.active {  
+  background: rgb(0, 0, 0);   
+  box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+
+.testimonial span{
+    font-size: 62px;
+    position: absolute;
+    top: 57%;
+    left: 0;
+    font-family: 'Emblema One', cursive;
+    color: rgb(0, 0, 0);
+}
+
+.carousel-control-prev span{
+    position: absolute;
+    font-size: 14px;
+    top: 29%;
+    left: 20px;
+    color: #ffae00;
+    text-shadow: none;
+    font-weight: bolder;
+}
+
+.carousel-control-next span{
+    position: absolute;
+    font-size: 14px;
+    top: 29%;
+    right: 20px;
+    color: #ffae00;
+    text-shadow: none;
+    font-weight: bolder;
+}
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+
+html {
+position: relative;
+min-height: 50%;
+}
+body {
+
+margin-bottom: 300px;
+}
+.footer {
+position: absolute;
+bottom: 0;
+width: 76.3%;
+
+height: 300px;
+}
+
+
+footer {
+padding-top: 40px;
+background-color: #2f2e29;
+color: rgb(255, 255, 255);
+font-family:cursive;
+font-size: 20px;
+}
+
+footer a {
+color: rgb(241, 198, 79);
+text-decoration:none;
+font-family: monospace;
+font-size: 20px;
+}
+
+footer .form-control {
+  background-color: #1f2022;
+  box-shadow: 0 1px 0 0 rgb(251, 157, 6);
+  border: none;
+  resize: none;
+  color: #bce9e9fb;
+  padding: 0.9em 2em;
+}
