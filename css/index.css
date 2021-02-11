@@ -115,7 +115,7 @@ body{
   height: 170px;
   margin: 0 auto;
   padding: 5px;
-  border: 1px solid rgb(255, 97, 5);
+  border: 1px solid rgb(245, 90, 0);
   border-radius: 50%;
 }
 .carousel .img-box img {
@@ -223,4 +223,49 @@ body{
     color: #ffae00;
     text-shadow: none;
     font-weight: bolder;
+}
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+
+html {
+position: relative;
+min-height: 50%;
+}
+body {
+
+margin-bottom: 300px;
+}
+.footer {
+position: absolute;
+bottom: 0;
+width: 76.3%;
+
+height: 300px;
+}
+
+
+footer {
+padding-top: 40px;
+background-color: #2f2e29;
+color: rgb(255, 255, 255);
+font-family:cursive;
+font-size: 20px;
+}
+
+footer a {
+color: rgb(241, 198, 79);
+text-decoration:none;
+font-family: monospace;
+font-size: 20px;
+}
+
+footer .form-control {
+  background-color: #1f2022;
+  box-shadow: 0 1px 0 0 rgb(251, 157, 6);
+  border: none;
+  resize: none;
+  color: #bce9e9fb;
+  padding: 0.9em 2em;
 }
