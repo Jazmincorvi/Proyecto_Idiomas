@@ -1,6 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
-  background: #fbe625e3;
+  background: #c8ad31e3;
   color: rgb(255, 255, 255);
 }
 
@@ -729,14 +729,14 @@ h1, h2, h3, h4, h5, h6 {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
-  background: #1a1814;
+  background: #ffffff;
 }
 
 .why-us .box span {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #cda45e;
+  color: #000000;
 }
 
 .why-us .box h4 {
@@ -748,7 +748,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .why-us .box p {
-  color: #aaaaaa;
+  color: #000000;
   font-size: 15px;
   margin: 0;
   padding: 0;
@@ -794,12 +794,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.6);
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.6);
   margin: 0 0 0 45px;
 }
 
@@ -845,7 +845,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #cda45e;
+  background-color: #a1824c;
 }
 
 /*--------------------------------------------------------------
@@ -945,7 +945,7 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   width: 44px;
   height: 44px;
-  background: #cda45e;
+  background: #a7864e;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -965,7 +965,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #bab3a6;
+  color: #000000;
 }
 
 .contact .info .open-hours, .contact .info .email, .contact .info .phone {
@@ -1019,7 +1019,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #cda45e;
+  border: 3px solid #957845;
   border-top-color: #1a1814;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1062,7 +1062,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #cda45e;
   border: 0;
   padding: 10px 35px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   transition: 0.4s;
   border-radius: 50px;
 }
