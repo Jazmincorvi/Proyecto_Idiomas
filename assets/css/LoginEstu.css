@@ -1,0 +1,16 @@
+.btn-outline-dark{
+    border-radius: 20px;
+    font-family: monospace;
+    font-size: 15px;
+   
+   }
+   .col-4{
+       text-align: center;
+   }
+   a.button {
+       -webkit-appearance: button;
+       -moz-appearance: button;
+       appearance: button;
+       text-decoration: none;
+       color: initial;
+   }
