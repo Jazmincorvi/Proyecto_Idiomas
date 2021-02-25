@@ -310,6 +310,12 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
   }
 }
+@media (max-width: 768px) {
+  /* establecemos que solo se aplicara para dispositivos móviles */
+  .navbar .nav > li {
+    float: none;
+  }
+}
 
 .navbar-mobile {
   position: fixed;
