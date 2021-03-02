@@ -1,6 +1,6 @@
 body {
   font-family: Georgia;
-  background: #ffffff9f;
+  background: #c8ac319f;
   color: rgb(0, 0, 0);
 }
 
@@ -372,7 +372,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
   visibility: visible;
   background: #fff;
-  box-shadow: 0px 0px 30px rgb(127, 137, 161);
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
 .navbar-mobile .dropdown ul li {
@@ -409,7 +409,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -611,7 +611,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .about:before {
   content: "";
-  background: rgb(253, 253, 253);
+  background: rgba(0, 0, 0, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -626,7 +626,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .about .about-img img {
   max-width: 100%;
-  border: 4px solid rgb(255, 255, 255);
+  border: 4px solid rgba(255, 255, 255, 0.2);
   position: relative;
 }
 
