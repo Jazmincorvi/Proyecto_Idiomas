@@ -1,9 +1,8 @@
 body {
-    font-family: Georgia;
-    background: #faf5de69;
-    color: rgb(0, 0, 0);
-  }
-  
+  font-family: Georgia;
+  background: rgba(158, 155, 155, 0.624);
+  color: rgb(0, 0, 0);
+}
   a {
     color: #fbbb4c;
     text-decoration: none;
